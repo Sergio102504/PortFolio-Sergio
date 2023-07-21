@@ -14,8 +14,8 @@ const NavBar = () => {
             <S.ContainerLogo>
                 <S.ImageLogo src={iniciales} alt="Logo Sergio"/>
                 <div>
-                    <h1>Iván Devia</h1>
-                    <h2>Sw Developer FullStack</h2>
+                    <h1>Sergio Quintero</h1>
+                    <h2>Developer FrontEnd</h2>
                 </div>
             </S.ContainerLogo>
             <S.ContainerBurguer onClick={() => setShowMenuBurguer(!showMenuBurguer)}>
