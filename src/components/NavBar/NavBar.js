@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import * as S from "./NavBar.styles";
+import iniciales from "../../images/images/projects/inicialS.png"
 
 const NavBar = () => {
     const [showMenuBurguer, setShowMenuBurguer] = useState(false);
@@ -11,7 +12,7 @@ const NavBar = () => {
     return(
         <S.ContainerNavBar>
             <S.ContainerLogo>
-                <S.ImageLogo src="/img/inicialS.png" alt="Logo Sergio"/>
+                <S.ImageLogo src={iniciales} alt="Logo Sergio"/>
                 <div>
                     <h1>Iván Devia</h1>
                     <h2>Sw Developer FullStack</h2>

@@ -3,6 +3,7 @@ import * as S from "./AboutMe.styles";
 import logoGithub from "../../svg/svg/github.svg";
 import logoLinkeind from "../../svg/svg/linkedin.svg";
 import logoinstagram from "../../svg/svg/instagram.svg"
+import foto from "../../images/images/sergio.jpeg"
 
 const AboutMe = () => {
     const socialNetworks =[
@@ -51,7 +52,7 @@ const AboutMe = () => {
                 </S.ContainerIcons>
                 </S.ContainerText>
                 <S.ContainerImage>
-                    <img src="../../images/images/sergio.jpeg" alt="Sergio Quintero - Front End Developer"/>
+                    <img src={foto} alt="Sergio Quintero - Front End Developer"/>
                 </S.ContainerImage>
             </S.ContainerFlex>
         </S.ContainerAboutMe>
